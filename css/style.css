@@ -160,7 +160,7 @@ div {
   z-index: 100;
   position: fixed;
   width: 90px;
-  background: #4caf50;
+  background: dark;
   /* overflow: hidden; */
 
   height: 100%;
@@ -180,7 +180,7 @@ div {
   padding: 0px;
 }
 .menu ul li {
-  border-bottom: 1px solid #54be58;
+  border-bottom: 1px solid white;
   display: block;
 }
 .menu-lef-act {
@@ -4516,7 +4516,7 @@ h1 {
   margin: 0;
   height: auto;
   width: 100%;
- background-color: #25262A;
+  background-color: #25262a;
 }
 .pushing {
   margin-left: 92px;
@@ -4528,8 +4528,6 @@ h1 {
 .navi ul li a {
   font-size: 13px;
 }
-
-
 
 @media (max-width: 800px) {
   .smal {
@@ -4549,53 +4547,78 @@ h1 {
 }
 /*Fixture  page*/
 
-
-.fixtureRow{
+.fixtureRow {
   border-left: 4px solid black;
   border-right: 1px solid black;
   border-top: 1px solid black;
   border-bottom: 1px solid black;
 }
 
-
-.fixtureRow:hover{
-background-color: #F8F07A;;
+.fixtureRow:hover {
+  background-color: #f8f07a;
 }
 
-.box1{
+.box1 {
   display: none;
-  
 }
 
 /*Live score  page*/
 
-@media(max-width:800px){
-  #pic{
+@media (max-width: 800px) {
+  #pic {
     display: none;
   }
- 
 }
-@media(max-width:800px){
-   #noball{
+@media (max-width: 800px) {
+  #noball {
     display: none;
   }
-  #run{
+  #run {
     display: none;
   }
-  #madian{
+  #madian {
     display: none;
   }
-  #six{
+  #six {
     display: none;
   }
- 
 }
 
+/*tournnament pages*/
+/*Domestic tournament main  page*/
+.domestic {
+  background-color: #13151a;
+}
 
+.unorder li a {
+  font-size: 13px;
+  font-style: bold;
+  color: dark;
+}
 
+.mine .row .card {
+  border: 1px solid gold;
+  border-radius: 9px;
+}
+/*Domestic tournament sub pages*/
+/* tabel page*/
 
-
-
-
-
-
+@media (max-width: 800px) {
+  #pic {
+    display: none;
+  }
+}
+@media (max-width: 800px) {
+  #noball {
+    display: none;
+  }
+  #run {
+    display: none;
+  }
+  #madian {
+    display: none;
+  }
+  #six {
+    display: none;
+  }
+}
