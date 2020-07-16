@@ -178,10 +178,12 @@ div {
 }
 .menu ul {
   padding: 0px;
+ 
 }
 .menu ul li {
   border-bottom: 1px solid white;
   display: block;
+  
 }
 .menu-lef-act {
   background: #ffc107;
