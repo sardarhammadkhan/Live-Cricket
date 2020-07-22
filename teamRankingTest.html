@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <title>
-      Teams
+     Test Team Ranking
     </title>
     <!-- META TAGS -->
     <meta charset="utf-8" />
@@ -16,20 +16,10 @@
       href="https://fonts.googleapis.com/css?family=Lato:300,400,700%7CMontserrat:300,500%7COswald:400,500"
       rel="stylesheet"
     />
-    <link
-      rel="stylesheet"
-      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
-      integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
-      crossorigin="anonymous"
-    />
+
     <!-- FONTAWESOME ICONS -->
     <link rel="stylesheet" href="css/font-awesome.min.css" />
-    <link
-      rel="stylesheet"
-      href="https://use.fontawesome.com/releases/v5.13.1/css/all.css"
-      integrity="sha384-xxzQGERXS00kBmZW/6qxqJPyxW3UR0BPsL4c8ILaIWXva5kFi7TxkIIaMiKtqV1Q"
-      crossorigin="anonymous"
-    />
+
     <!-- ALL CSS FILES -->
     <link rel="stylesheet" href="css/style.css" />
     <link rel="stylesheet" href="css/bootstrap.css" />
@@ -44,7 +34,9 @@
       <script src="js/respond.min.js"></script>
     <![endif]-->
   </head>
+
   <body>
+    <!-- Preloader -->
     <div id="preloader">
       <div id="status">&nbsp;</div>
     </div>
@@ -52,8 +44,8 @@
     <!--SECTION: LEFT MENU-->
     <section>
       <!-- LEFT SIDE NAVIGATION MENU -->
-      <div class="menu" style="background: black;">
-        <ul >
+      <div class="menu topp">
+        <ul>
           <!-- MAIN MENU -->
           <li>
             <a href="index.html"
@@ -76,7 +68,7 @@
             >
           </li>
           <li>
-            <a href="team-ranking.html"
+            <a href="team-ranking.html" class="menu-lef-act"
               ><img src="images/icon/r1.png" alt="" /> Ranking</a
             >
           </li>
@@ -445,299 +437,190 @@
         </div>
       </div>
     </section>
+    <!-- SECTION: Rnking -->
+    <section>
+      <div class="lp"> 
+          <ul class="nav nav-pills mb-3 " style="background: black; color:white; display: inline-block; border-radius: 5px ;">
+      <li class=" bg-dark"><a href="teamRankingODI.html" class="text-white" style="color:white">ODI</a></li>
+            <li class="active"><a href="#" style="color: white; background-color: #696b6d;">TEST</a></li>
+            <li ><a href="teamRankingT20.html" style="color:white;">T-20</a></li>
+          </ul>
 
-    <!--squad details-->
-
-    <div class="container-fluid  abc ">
-      <div class="pushing ">
-      <!---welcome-->
-      <div class="p-5 " style="background-color: #25262a;;">
-        <div class="conatiner text-center  mt-4">
-          <h6 class="font-italic">WELCOME TO</h6>
-          <h2
-            class="text-white font-italic font-weight-bold"
-            style="font-size: 50px;"
-          >
-            THE SURREY SQUAD
-          </h2>
-        </div>
-      </div>
-
-      <!--smal nav-->
-      <div class="smal " style="background: #131212; height: 63px; ">
-        <div class="row ">
-          <div class="col-12 text-center">
-            <ul class="list-unstyled list-inline mt-2" style="font-size: 13px;">
-              <li class="list-inline-item mr-3 p-3 font-italic"><a>MENS</a></li>
-              <li class="list-inline-item mr-3 p-3 font-italic">
-                <a>ALL ROUNDERS</a>
-              </li>
-              <li class="list-inline-item mr-3 p-3 font-italic">
-                <a>BATMAN</a>
-              </li>
-              <li class="list-inline-item mr-3 p-3 font-italic">
-                <a>BOWLERS</a>
-              </li>
-              <li class="list-inline-item p-3 font-italic">
-                <a>WICKET KEEPERS</a>
-              </li>
-            </ul>
+        <div>
+          <!-- TRAINING BENEFITS -->
+          <div class="events ev-po-2 ev-po-com">
+            <div class="ev-po-title ev-po-title-1">
+              <h3>Team Ranking TEST</h3>
+            </div>
+            <table class="myTable">
+              <tbody>
+                <tr>
+                  <th>Rank</th>
+                  <th>TEAMS</th>
+                  <th>WON</th>
+                  <th>LOSS</th>
+                  <th>TIED</th>
+                  <th>NR</th>
+                  <th>PTS</th>
+                </tr>
+                <tr>
+                  <td>01</td>
+                  <td>
+                    <img src="images/coun/19.png" alt="" />
+                    <div class="h-tm-ra">
+                      <h4>The Alchemists</h4>
+                      <span>Eric Bros School</span>
+                    </div>
+                  </td>
+                  <td>84</td>
+                  <td>36</td>
+                  <td>12</td>
+                  <td>168</td>
+                  <td>168</td>
+                </tr>
+                <tr>
+                  <td>02</td>
+                  <td>
+                    <img src="images/coun/t2.png" alt="" />
+                    <div class="h-tm-ra">
+                      <h4>Bloody Wave</h4>
+                      <span>Atlantic School</span>
+                    </div>
+                  </td>
+                  <td>84</td>
+                  <td>36</td>
+                  <td>12</td>
+                  <td>168</td>
+                  <td>168</td>
+                </tr>
+                <tr>
+                  <td>03</td>
+                  <td>
+                    <img src="images/coun/t3.png" alt="" />
+                    <div class="h-tm-ra">
+                      <h4>L.A Pirates</h4>
+                      <span>Bebop Institute</span>
+                    </div>
+                  </td>
+                  <td>84</td>
+                  <td>36</td>
+                  <td>12</td>
+                  <td>168</td>
+                  <td>168</td>
+                </tr>
+                <tr>
+                  <td>04</td>
+                  <td>
+                    <img src="images/coun/t4.png" alt="" />
+                    <div class="h-tm-ra">
+                      <h4>The Alchemists</h4>
+                      <span>Eric Bros School</span>
+                    </div>
+                  </td>
+                  <td>84</td>
+                  <td>36</td>
+                  <td>12</td>
+                  <td>168</td>
+                  <td>168</td>
+                </tr>
+                <tr>
+                  <td>05</td>
+                  <td>
+                    <img src="images/coun/t5.png" alt="" />
+                    <div class="h-tm-ra">
+                      <h4>The Alchemists</h4>
+                      <span>Eric Bros School</span>
+                    </div>
+                  </td>
+                  <td>84</td>
+                  <td>36</td>
+                  <td>12</td>
+                  <td>168</td>
+                  <td>168</td>
+                </tr>
+                <tr>
+                  <td>06</td>
+                  <td>
+                    <img src="images/coun/t6.png" alt="" />
+                    <div class="h-tm-ra">
+                      <h4>The Alchemists</h4>
+                      <span>Eric Bros School</span>
+                    </div>
+                  </td>
+                  <td>84</td>
+                  <td>36</td>
+                  <td>12</td>
+                  <td>168</td>
+                  <td>168</td>
+                </tr>
+                <tr>
+                  <td>07</td>
+                  <td>
+                    <img src="images/coun/t7.png" alt="" />
+                    <div class="h-tm-ra">
+                      <h4>The Alchemists</h4>
+                      <span>Eric Bros School</span>
+                    </div>
+                  </td>
+                  <td>84</td>
+                  <td>36</td>
+                  <td>12</td>
+                  <td>168</td>
+                  <td>168</td>
+                </tr>
+                <tr>
+                  <td>08</td>
+                  <td>
+                    <img src="images/coun/t8.png" alt="" />
+                    <div class="h-tm-ra">
+                      <h4>The Alchemists</h4>
+                      <span>Eric Bros School</span>
+                    </div>
+                  </td>
+                  <td>84</td>
+                  <td>36</td>
+                  <td>12</td>
+                  <td>168</td>
+                  <td>168</td>
+                </tr>
+                <tr>
+                  <td>09</td>
+                  <td>
+                    <img src="images/coun/t9.png" alt="" />
+                    <div class="h-tm-ra">
+                      <h4>The Alchemists</h4>
+                      <span>Eric Bros School</span>
+                    </div>
+                  </td>
+                  <td>84</td>
+                  <td>36</td>
+                  <td>12</td>
+                  <td>168</td>
+                  <td>168</td>
+                </tr>
+                <tr>
+                  <td>10</td>
+                  <td>
+                    <img src="images/coun/t9.png" alt="" />
+                    <div class="h-tm-ra">
+                      <h4>The Alchemists</h4>
+                      <span>Eric Bros School</span>
+                    </div>
+                  </td>
+                  <td>84</td>
+                  <td>36</td>
+                  <td>12</td>
+                  <td>168</td>
+                  <td>168</td>
+                </tr>
+              </tbody>
+            </table>
           </div>
         </div>
       </div>
-      <!--main sect-->
+    </section>
 
-      <div class="row no-gutters">
-        <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12 border-right position-relative " >
-          <img src="./images/teams/AFG.png" class="img-fluid w-100 "  />
-          <div class= "  wrapper position-absolute mb-0 w-100" style="bottom: 0; " >
-            <div class=" bg-dark d-flex text-center justify-content-center ;"style="height: 70px;">
-              <div >
-                <a href="#">
-                  <h3 class="font-italic font-weight-bold text-white " >
-                    AFGHANISTAN
-                  </h3>
-                </a>
-              </div>
-              
-            </div>
-           
-          </div>
-
-         
-        </div>
-
-        <div    
-          class="col-lg-3 col-md-3 col-sm-12 col-xs-12 border-right position-relative"
-        >
-          <img
-            src="./images/teams/AUS.png"
-            class="img-fluid w-100"
-          />
-    <div class="wrapper position-absolute mb-0 w-100" style="bottom: 0; ">
-        <div class=" bg-dark d-flex text-center justify-content-center ;"style="height: 70px;">
-            <div style="opacity: 0.9;">
-                <a href="#">
-                    <h3 class="font-italic font-weight-bold text-white" >
-                        AUSTRALIA
-                    </h3>
-                </a>
-            </div>
-    
-        </div>
-    
-    </div>
-        </div>
-
-        <div
-          class="col-lg-3 col-md-3 col-sm-12 col-xs-12 border-right position-relative"
-        >
-          <img
-            src="./images/teams/BAN.png"
-            class="img-fluid w-100">
-  <div class="wrapper position-absolute mb-0 w-100" style="bottom: 0; " >
-            <div class=" bg-dark d-flex text-center justify-content-center ;"style="height: 70px;" >
-              <div style="opacity: 0.9;">
-                <a href="#">
-                  <h3 class="font-italic font-weight-bold text-white" style="opacity: 0.9;">
-                    BANGLADASH
-                  </h3>
-                </a>
-              </div>
-              
-            </div>
-           
-          </div>
-        </div>
-
-        <div
-          class="col-lg-3 col-md-3 col-sm-12 col-xs-12 border-right position-relative"
-        >
-          <img
-            src="./images/teams/ENG.png"
-            class="img-fluid w-100"
-          />
-        <div class="wrapper position-absolute mb-0 w-100" style="bottom: 0;;">
-            <div class=" bg-dark d-flex text-center justify-content-center  opacity: 0.9;"style="height: 70px;">
-                <div style="opacity: 0.9;">
-                    <a href="#">
-                        <h3 class="font-italic font-weight-bold text-white" style="opacity: 0.9;">
-                            ENGLAND
-                        </h3>
-                    </a>
-                </div>
-        
-            </div>
-        
-        </div>
-      </div>
-    </div>
- 
-<div class="row no-gutters">
-    <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12 border-right position-relative ">
-        <img src="./images/teams/IND.png" class="img-fluid w-100 " />
-        <div class=" wrapper position-absolute w-100" style="bottom: 0; opacity: 1;">
-            <div class="   bg-dark d-flex text-center justify-content-center  opacity: 1;"style="height: 70px;" >
-                <div style="opacity: 0.9;" class="view overlay">
-                    <a href="# " class="mask flex-center rgba-red-strong ">
-                        <h3 class="font-italic font-weight-bold text-white" style="opacity: 1;">
-                            INDIA
-                        </h3>
-                    </a>
-                </div>
-
-            </div>
-
-        </div>
-
-
-    </div>
-
-    <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12 border-right position-relative">
-        <img src="./images/teams/IRE.png" class="img-fluid w-100" />
-        <div class="wrapper position-absolute mb-0 w-100" style="bottom: 0; ;">
-            <div class=" bg-dark d-flex text-center justify-content-center "style="height: 70px;">
-                <div style="opacity: 0.9;">
-                    <a href="#">
-                        <h3 class="font-italic font-weight-bold text-white" style="opacity: 0.9;">
-                         IRELAND
-                        </h3>
-                    </a>
-                </div>
-
-            </div>
-
-        </div>
-    </div>
-
-    <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12 border-right position-relative">
-        <img src="./images/teams/NZ.png" class="img-fluid w-100">
-        <div class="wrapper position-absolute mb-0 w-100" style="bottom: 0;;">
-            <div class=" bg-dark d-flex text-center justify-content-center  ;"style="height: 70px;">
-                <div style="opacity: 0.9;">
-                    <a href="#">
-                        <h3 class="font-italic font-weight-bold text-white" style="opacity: 0.9;">
-                            NEWZLIAND
-                        </h3>
-                    </a>
-                </div>
-
-            </div>
-
-        </div>
-    </div>
-
-    <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12 border-right position-relative">
-        <img src="./images/teams/PAK.png" class="img-fluid w-100" />
-        <div class="wrapper position-absolute mb-0 w-100" style="bottom: 0; ;">
-            <div class=" bg-dark d-flex text-center justify-content-center  opacity: 0.9;"style="height: 70px;">
-                <div>
-                    <a href="#">
-                        <h3 class="font-italic font-weight-bold text-white" style="opacity: 0.9;">
-                            PAKISTAN
-                        </h3>
-                    </a>
-                </div>
-
-            </div>
-
-        </div>
-    </div>
-</div>
-<div class="row no-gutters mb-4" >
-    <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12 border-right position-relative ">
-        <img src="./images/teams/SA.png" class="img-fluid w-100 " />
-        <div class="wrapper position-absolute mb-0 w-100" style="bottom: 0; ;">
-            <div class=" bg-dark d-flex text-center justify-content-center  opacity: 0.9;"style="height: 70px;"">
-                <div style="opacity: 0.9;">
-                    <a href="#">
-                        <h3 class="font-italic font-weight-bold text-white" style="opacity: 0.9;">
-                            SOUTH AFRICA
-                        </h3>
-                    </a>
-                </div>
-
-            </div>
-
-        </div>
-
-
-    </div>
-
-    <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12 border-right position-relative">
-        <img src="./images/teams/SL.png" class="img-fluid w-100" />
-        <div class="wrapper position-absolute mb-0 w-100" style="bottom: 0; " >
-            <div class=" bg-dark d-flex text-center justify-content-center  opacity: 0.9;"style="height: 70px;">
-                <div style="opacity: 0.9;">
-                    <a href="#">
-                        <h3 class="font-italic font-weight-bold text-white" style="opacity: 0.9;">
-                            SIRILANKA
-                        </h3>
-                    </a>
-                </div>
-
-            </div>
-
-        </div>
-    </div>
-
-    <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12 border-right position-relative">
-        <img src="./images/teams/WI.png" class="img-fluid w-100">
-        <div class="wrapper position-absolute mb-0 w-100" style="bottom: 0; ">
-            <div class=" bg-dark d-flex text-center justify-content-center  opacity: 0.9;"style="height: 70px;">
-                <div style="opacity: 0.9;">
-                    <a href="#">
-                        <h3 class="font-italic font-weight-bold text-white" style="opacity: 0.9;">
-                            WESTINDIES
-                        </h3>
-                    </a>
-                </div>
-
-            </div>
-
-        </div>
-    </div>
-
-    <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12 border-right position-relative">
-        <img src="./images/teams/ZIM.png" class="w-100 img-fluid"  />
-        <div class="wrapper position-absolute mb-0 w-100" style="bottom: 0; ">
-            <div class=" bg-dark d-flex text-center justify-content-center  opacity: 0.9;"style="height: 70px;">
-                <div style="opacity: 0.9;">
-                    <a href="#">
-                        <h3 class="font-italic font-weight-bold text-white" style="opacity: 0.9;">
-                            ZIMBABWE
-                        </h3>
-                    </a>
-                </div>
-
-            </div>
-
-        </div>
-    </div>
-</div>
-
-     
-     
-    
-
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script
-      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
-      integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
-      crossorigin="anonymous"
-    ></script>
-
+    <!--== Bootstrap & Latest JS ==-->
     <script type="text/javascript" src="js/jquery.min.js"></script>
     <script type="text/javascript" src="js/bootstrap.js"></script>
     <script src="js/custom.js"></script>

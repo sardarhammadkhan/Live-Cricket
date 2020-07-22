@@ -1,0 +1,19 @@
+{
+  "name": "cricket",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sardarhammadkhan/Live-Cricket.git"
+  },
+  "author": "hammad ahmed",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sardarhammadkhan/Live-Cricket/issues"
+  },
+  "homepage": "https://github.com/sardarhammadkhan/Live-Cricket#readme"
+}
