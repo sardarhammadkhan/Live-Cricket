@@ -4643,7 +4643,16 @@ h1 {
 }
 /*single team Profile*/
 .abcd {
-  background-image: url("../images/ass.jpg");
+  background-image: url("../images/teamBack.jpg");
+  height: auto;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+/*ground page*/
+.abcdg {
+  background-image: url("../images/ground.jpg");
   height: auto;
   width: 100%;
   background-position: center;
